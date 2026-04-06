@@ -1,6 +1,6 @@
 # Presenter
 
-A streamlined workflow for creating presentations with [Slidev](https://sli.dev/) and AI-powered development (OpenCode).
+A streamlined & opinionated workflow for creating presentations with [Slidev](https://sli.dev/) and OpenCode to help refine content within slides.
 
 ## Requirements
 
@@ -100,10 +100,3 @@ Configure the base path in `package.json` for your repository:
 ```
 
 Then build and deploy the `dist/` folder.
-
-## Philosophy
-
-- **Markdown-native**: Write slides as easily as docs
-- **AI-friendly**: Designed for AI-assisted creation
-- **Git-friendly**: Template versioned, presentations ignored
-- **Minimal setup**: Focus on content, not configuration
