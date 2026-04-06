@@ -17,9 +17,6 @@ mdc: true
 
 ---
 
-layout: two-cols
----
-
 ## Left Column
 
 - Key point one
@@ -50,17 +47,10 @@ console.log(present("AI"))
 
 ---
 
-layout: center
-class: text-center
----
-
 # Thank You
 
 ### Questions?
 
----
-
-class: text-center
 ---
 
 # Big Statement

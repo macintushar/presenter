@@ -27,11 +27,6 @@ html.dark,
     background: var(--bg);
 }
 
-/* Hide sidebar navigation */
-#slidev-goto-dialog {
-    top: 8px;
-}
-
 .slidev-layout h1 {
     @apply text-4xl font-semibold;
     color: var(--ink);

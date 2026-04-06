@@ -63,7 +63,6 @@ Slides are written in Markdown with YAML frontmatter. See the [Slidev documentat
 | `o` | Toggle overview |
 | `f` | Toggle fullscreen |
 | `d` | Toggle dark mode |
-| `s` | Open presenter mode |
 
 ## Styling
 

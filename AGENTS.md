@@ -221,7 +221,7 @@ Or individually:
 
 ### Speaker Notes
 
-Use HTML comments for speaker notes (visible in presenter mode with `s` key):
+Use HTML comments for speaker notes:
 
 ```markdown
 ## Slide Title
@@ -310,7 +310,6 @@ Install additional themes: `bun add @slidev/theme-dracula`
 | `o` | Toggle overview |
 | `f` | Toggle fullscreen |
 | `d` | Toggle dark mode |
-| `s` | Open presenter mode (speaker notes) |
 | `c` | Timer / clock overlay |
 
 ## Best Practices forCreating Presentations

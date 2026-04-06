@@ -11,9 +11,7 @@ mdc: true
 
 # Presenter Demo
 
-### Create beautiful presentations with Markdown and AI
-
-**OpenCode**
+### Create beautiful presentations with Markdown, powered by AI
 
 ---
 layout: center
@@ -176,24 +174,6 @@ The styling automatically adjusts:
 - Code blocks
 
 ---
-layout: center
-class: text-center
----
-
-# Speaker Notes
-
-Press `s` to open presenter mode
-
-Speaker notes are only visible to you:
-
-```
-<!--
-These notes appear in presenter mode
-but not in the actual presentation.
--->
-```
-
----
 
 ## Keyboard Shortcuts
 
@@ -204,7 +184,6 @@ but not in the actual presentation.
 | `o` | Toggle overview |
 | `f` | Toggle fullscreen |
 | `d` | Toggle dark mode |
-| `s` | Presenter mode |
 
 ---
 layout: center
