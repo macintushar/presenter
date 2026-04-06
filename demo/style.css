@@ -1,0 +1,167 @@
+:root {
+    --bg: #f5f5f4;
+    --ink: #17171b;
+    --body: #2f3034;
+    --muted: #a3a09d;
+    --line: #cfcfd2;
+    --card-bg: #ffffff;
+}
+
+:root.dark,
+html.dark,
+.dark {
+    --bg: #1a1a1a;
+    --ink: #f5f5f4;
+    --body: #c9c9c9;
+    --muted: #6b6b6b;
+    --line: #404040;
+    --card-bg: #262626;
+}
+
+.logo {
+    height: 20px;
+}
+
+.slidev-layout {
+    font-family: "Avenir Next", "SF Pro Display", "Helvetica Neue", sans-serif;
+    background: var(--bg);
+}
+
+/* Hide sidebar navigation */
+#slidev-goto-dialog {
+    top: 8px;
+}
+
+.slidev-layout h1 {
+    @apply text-4xl font-semibold;
+    color: var(--ink);
+    letter-spacing: -0.02em;
+}
+
+.slidev-layout h2 {
+    @apply text-2xl font-semibold;
+    color: var(--ink);
+    letter-spacing: -0.02em;
+    margin-bottom: 0.9em;
+}
+
+.slidev-layout h3 {
+    @apply text-xl font-semibold;
+    color: var(--ink);
+}
+
+.slidev-layout p {
+    color: var(--body);
+    line-height: 1.5;
+    margin-bottom: 0.7em;
+}
+
+.slidev-layout blockquote > p {
+    color: var(--body);
+    line-height: 1.5;
+    margin-bottom: 0em;
+}
+
+.slidev-layout ul {
+    @apply list-none pl-0;
+    color: var(--body);
+}
+
+.slidev-layout li {
+    @apply relative pl-6 mb-3;
+}
+
+.slidev-layout li::before {
+    content: "↪";
+    color: var(--muted);
+    position: absolute;
+    left: 0;
+}
+
+.slidev-layout strong {
+    color: var(--ink);
+    font-weight: 600;
+}
+
+.muted {
+    color: var(--muted);
+}
+
+.strong {
+    color: var(--ink);
+    font-weight: 600;
+}
+
+.lead {
+    font-size: 1.1em;
+}
+
+.sublead {
+    font-size: 0.85em;
+    color: var(--body);
+}
+
+.fine {
+    font-size: 0.85em;
+    color: var(--muted);
+    margin-top: 0.5rem;
+}
+
+.meta {
+    font-size: 0.9em;
+    color: var(--muted);
+    margin: 0;
+}
+
+.meta strong {
+    color: var(--body);
+}
+
+.demo-card {
+    background: var(--card-bg);
+    padding: 4rem 2rem;
+    border-radius: 4px;
+    border: 2px dashed var(--line);
+    text-align: center;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.demo-card--md {
+    min-height: 300px;
+}
+
+.demo-card--lg {
+    min-height: 350px;
+}
+
+.split-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+@media (max-width: 768px) {
+    .split-2 {
+        grid-template-columns: 1fr;
+    }
+}
+
+blockquote {
+    background: var(--card-bg);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    color: var(--body);
+    padding: 1em 1.2em;
+    margin: 0.5em 0;
+}
+
+blockquote strong {
+    color: var(--ink);
+}
+
+blockquote p {
+    margin: 0;
+}

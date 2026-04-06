@@ -1,0 +1,18 @@
+{
+  "name": "demo-presentation",
+  "type": "module",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build --base /presenter/demo/",
+    "export": "slidev export",
+    "export-pdf": "slidev export --format pdf",
+    "export-png": "slidev export --format png"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.50.0",
+    "@slidev/theme-default": "^0.25.0"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.48.0"
+  }
+}
