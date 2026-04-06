@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "dev": "slidev --open",
-    "build": "slidev build --base /presenter/demo/",
+    "build": "slidev build",
     "export": "slidev export",
     "export-pdf": "slidev export --format pdf",
     "export-png": "slidev export --format png"
