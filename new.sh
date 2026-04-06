@@ -28,10 +28,21 @@ echo "Creating presentation: $NAME"
 
 cp -R "$TEMPLATE_DIR" "$TARGET_DIR"
 
+ROOT_GITIGNORE="$SCRIPT_DIR/.gitignore"
+if [ ! -f "$ROOT_GITIGNORE" ] || ! grep -q "^presentations/$" "$ROOT_GITIGNORE"; then
+  echo "presentations/" >> "$ROOT_GITIGNORE"
+fi
+
 cd "$TARGET_DIR"
 
 echo "Installing dependencies with bun..."
 bun install
+
+if command -v git &> /dev/null; then
+  git init
+  git add .
+  git commit -m "Initial commit"
+fi
 
 echo ""
 echo "Presentation '$NAME' created at: $TARGET_DIR"

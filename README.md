@@ -32,7 +32,7 @@ presenter/
     └── <name>/
 ```
 
-> **Note:** The `presentations/` directory is intentionally excluded from git (see `.gitignore`). This keeps your actual presentations private while versioning the template and tooling.
+> **Note:** Each presentation is initialized as its own git repository. The `presentations/` directory is excluded from the main repo (via `.gitignore`), allowing you to manage individual presentations with separate remotes and privacy settings.
 
 ## Writing Slides
 
